@@ -2,7 +2,7 @@
 
 ## Usage
 
-In order to run `AutoBackup.sh`, the only thing you have to do is set the environment variable **BACKUP_DRIVE**
+In order to run `AutoBackup.sh`, the only thing you have to set is the environment variable **BACKUP_DRIVE**
 
 As so, if your desired backup drive is named *USB*, the command you must run is `export BACKUP_DRIVE=USB`
 
