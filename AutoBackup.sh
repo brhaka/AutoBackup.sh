@@ -14,6 +14,6 @@ else
 		printf "Backup successfully done.\nFiles were copied to $BACKUP_DRIVE/$BACKUP_DATETIME_FOLDER_NAME."
 		unset BACKUP_DATETIME_FOLDER_NAME
 	else
-		printf "Drive specified in \"\$BACKUP_DRIVE\" does not exists."
+		printf "Drive specified in variable \"BACKUP_DRIVE\" does not exists."
 	fi
 fi
