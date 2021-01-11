@@ -12,6 +12,8 @@ To start `AutoBackup.sh`, you need to open it with the **bash** command. E.g: `b
 
 `AutoBackup.sh` will create a **.zip** file at the specified drive's root directory, named with the following format: `Y-m-d__H-M-S.zip`
 
+The `~/Library` folder is not included in the backup.
+
 <br>
 
 ##### Feel free to contribute!
